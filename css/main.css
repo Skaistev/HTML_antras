@@ -1,0 +1,49 @@
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    }
+
+   
+main > div > div {display: inline-block ;
+    color: azure;
+    font-size: 400px;
+    font-family:'Franklin Gothic Medium';
+    color: rgb(240, 243, 245);
+    border-style: outset;
+    border-radius: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 150px ;
+    margin-left: 360px;
+
+}
+p {
+    display: inline-block;
+    width: 1000px;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 350px;
+    margin-top: 30px;
+    color: rgb(185, 104, 94);
+    font-weight: 20px;
+    font-family: sans-serif;
+   
+   
+   
+}
+a {
+    float: right;
+    font-size: 40px;
+    margin-right: 240px;
+    margin-top: 110px;
+    border-style: solid;
+    color: rgb(65, 56, 73);
+    border-radius: 40px;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
