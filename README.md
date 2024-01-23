@@ -1,7 +1,7 @@
 🌟 About
 This project is for educational porpuses only. Learning and understanding. 
 
-Site published at: 
+Site published at: https://skaistev.github.io/HTML_antras/
 
 🎯 Project features/goals
 HTML methods;
@@ -21,7 +21,7 @@ https://git-scm.com
 Would like to run this project locally? Open terminal and follow these steps:
 
 Clone the repo
-git clone 
+git clone https://github.com/Skaistev/HTML_antras.git
 
 Install NPM packages
 npm i
