@@ -1,49 +1,84 @@
-body * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-   
-    }
-
-   
-main > div > div {display: inline-block ;
-    color: azure;
-    font-size: 400px;
-    font-family:'Franklin Gothic Medium';
-    color: rgb(240, 243, 245);
-    border-style: outset;
-    border-radius: 60px;
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-top: 150px ;
-    margin-left: 360px;
-
+body,
+body* {
+margin: 0;
+padding: 0;
+vertical-align: top;
+box-sizing: border-box;
+background-repeat: no-repeat;
 }
-p {
-    display: inline-block;
+
+body {
+    /* background-image: url("./basis3.jpg");
+    background-repeat: no-repeat;
+    color: white; */
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bendras{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(158, 92, 92);
+    margin-left: calc((100% - 1000px)/2);
+    margin-bottom: 40px;
+    margin-top: 20px;
     width: 1000px;
-    font-size: 30px;
-    padding: 20px;
-    margin-left: 350px;
-    margin-top: 30px;
-    color: rgb(185, 104, 94);
-    font-weight: 20px;
-    font-family: sans-serif;
-   
-   
-   
 }
-a {
-    float: right;
-    font-size: 40px;
-    margin-right: 240px;
-    margin-top: 110px;
-    border-style: solid;
-    color: rgb(65, 56, 73);
-    border-radius: 40px;
-    width: 400px;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 30px;
+.nav-basic {
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    margin-left: 20px;
+    font-size: 25px;
+    background-color: black;
+    
+}
+.nav-link {
+    color: white;
     text-decoration: none;
+}
+.nav-basic> .nav.link:hover{
+    text-decoration: solid;
+    
+}
+.skaiciai{
+
+}
+.skaicius1 {
+
+}
+.skaicius2{
+
+}
+.tekstas{
+
+}
+.pirmas{
+
+}
+.antras{
+
+}
+.fraze{
+
+}
+.nuoroda{
+
+}
+.social{
+    background-color: black;
+
+}
+.social-link{
+
+}
+.fa.fa-facebook{
+
+}
+.fa.fa-linkedin{
+
+}
+.copy{
+
 }
