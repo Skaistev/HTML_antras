@@ -143,3 +143,79 @@ main > .bendras + .bendras {
 .copy{
 margin-right: 40px;
 }
+
+@media (max-width: 1400px){
+    .bendras {
+    margin-left: 1px;}
+
+    .skaicius-isblukes {
+        opacity: 1;
+
+    }
+
+}
+@media (max-width: 1020px){
+    .bendras {
+        width: 600px;}
+
+    .skaicius-isblukes {
+        opacity: 1;
+
+    }
+    .nuoroda {
+        width: 200px;
+        font-size: 10px;
+        padding: 5px;
+        margin-left: 5px;
+    }
+
+}
+
+@media (max-width: 320px){
+    .bendras {
+        width: 280px;}
+
+    .nav-basic {
+        display: flex;
+    flex-direction: column;
+    gap: 5px;px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    }
+
+    .skaiciai {
+        display: flex;
+    justify-content: flex-start;
+    font-size:20px;
+    color: aliceblue;
+    margin-bottom: 2px;
+    }
+
+    .skaicius-isblukes {
+        opacity: 1;
+        font-size: 40px;
+        text-align: center;
+
+    }
+    .nuoroda {
+        width: 200px;
+        font-size: 10px;
+        padding: 5px;
+        margin-left: 5px;
+    }
+    .tekstas {
+        display: flex;
+        flex-direction: column;
+    gap:unset;
+    font-size: 20px;
+    line-height: 120%;
+    }
+    .pirmas {
+        margin-left: 2px;
+    }
+    .pabaiga {
+        gap: 50px;
+
+    }
+}
