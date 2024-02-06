@@ -10,6 +10,7 @@ body {
 background-image: url("basis3.jpg");
 background-repeat: no-repeat;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-size: cover;
 }
 .bendras{
    display: flex;
@@ -36,6 +37,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(155, 154, 224);
     text-decoration: none;
     border-bottom-color: rgba(102, 90, 90, 0.1);
+    transition: 2s;
 }
 .nav-basic> .nav-link.active{
     border-bottom: rgb(255, 251, 251,0.1) solid;
@@ -44,6 +46,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .nav-basic> .nav-link:hover{
    border-bottom:solid;
     color: rgb(242, 242, 247. 0.2);
+
     
 }
 .skaiciai{
